@@ -1,0 +1,125 @@
+.page-section {
+  position: relative;
+  padding: 75px 0;
+  @include media-breakpoint-up(lg) {
+	padding: 120px 0;
+  }
+}
+
+.page-section--heading {
+  font-family: 'Noway', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  @include media-breakpoint-up(md) {
+	font-size: 48px;
+  }
+  @include media-breakpoint-up(lg) {
+	font-size: 52px;
+	margin-bottom: 25px;
+  }
+}
+
+.page-section--greeting {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  font-weight: 500;
+}
+
+.page-section--soon {
+  position: relative;
+  overflow: hidden;
+  &:before {
+	content: 'SOON!';
+	position: absolute;
+	background-color: #FF0000;
+	width: 270px;
+	color: #fff;
+	text-transform: uppercase;
+	top: -25px;
+	left: -20px;
+	height: 50px;
+	background-size: 100%;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transform: rotate(-30deg) translate(-27%, -25%);
+	transform-origin: center;
+	z-index: 10;
+	@include media-breakpoint-up(lg) {
+	  top: -30px;
+	  left: -60px;
+	  height: 100px;
+	  width: 500px;
+	  font-size: 38px;
+	}
+  }
+}
+
+.page-section--help__create {
+  position: relative;
+  z-index: 10;
+  
+}
+
+.fv-earn--points {
+  background-color: #3B3D40;
+  color: #ffffff;
+  padding-top: 70px;
+  .img-iphone {
+	max-width: 270px;
+  }
+  @include media-breakpoint-up(lg) {
+	padding-top: 100px;
+  }
+}
+
+.fv-discuss--faves {
+  background-color: #F0F0F0;
+  z-index: 2;
+}
+
+.fv-games--home {
+  position: relative;
+}
+
+.fv-list--item {
+  font-family: 'Noway', sans-serif;
+  color: #000;
+  max-width: 200px;
+  margin: 25px auto 50px;
+  text-align: center;
+  h3 {
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 2px;
+  }
+  p {
+	font-weight: 400;
+	font-size: 16px;
+  }
+  @include media-breakpoint-up(md) {
+	margin: 50px auto;
+  }
+}
+
+.fv-info--wrapper {
+  position: relative;
+  .mascot-phone {
+	max-width: 238px;
+	@include media-breakpoint-up(sm) {
+	  max-width: 338px;
+	}
+  }
+  .mascot-img {
+	position: absolute;
+	top: 19%;
+	left: 5%;
+	max-width: 200px;
+	@include media-breakpoint-up(sm) {
+	  left: 0;
+	  max-width: 300px;
+	}
+  }
+}

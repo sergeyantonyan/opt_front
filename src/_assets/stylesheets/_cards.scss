@@ -1,0 +1,58 @@
+.fv-gamecard {
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 137%;
+  a {
+    display: block;
+    color: #fff;
+    text-shadow: 0 2px 18px rgba(0,0,0,0.50);
+    &:hover {
+      .fv-gamecard--image {
+        box-shadow: 0 2px 32px 0 rgba(0,0,0,0.50);
+        transform: translate(0, -2px);
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+	margin-top: 0;
+	padding-bottom: 167%;
+  }
+}
+
+.fv-gamecard--image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 0.27s all ease-in;
+  transform: translate(0, 0);
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0);
+    transition: 0.15s background-color;
+  }
+}
+
+.fv-gamecard--title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Noway', sans-serif;
+  padding: 10px;
+  margin: 0;
+  h2 {
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+    }
+  }
+}

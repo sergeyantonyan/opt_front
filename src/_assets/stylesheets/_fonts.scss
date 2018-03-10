@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url('../fonts/Merriweather-Bold/Merriweather-Bold.eot');
+  src: url('../fonts/Merriweather-Bold/Merriweather-Bold.woff2') format('woff2'),
+  url('../fonts/Merriweather-Bold/Merriweather-Bold.woff') format('woff'),
+  url('../fonts/Merriweather-Bold/Merriweather-Bold.ttf') format('truetype'),
+  url('../fonts/Merriweather-Bold/Merriweather-Bold.svg#Merriweather-Bold') format('svg'),
+  url('../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather-LightItalic';
+  src: url('../fonts/Merriweather-LightItalic/Merriweather-LightItalic.eot');
+  src: url('../fonts/Merriweather-LightItalic/Merriweather-LightItalic.woff2') format('woff2'),
+  url('../fonts/Merriweather-LightItalic/Merriweather-LightItalic.woff') format('woff'),
+  url('../fonts/Merriweather-LightItalic/Merriweather-LightItalic.ttf') format('truetype'),
+  url('../fonts/Merriweather-LightItalic/Merriweather-LightItalic.svg#Merriweather-LightItalic') format('svg'),
+  url('../fonts/Merriweather-LightItalic/Merriweather-LightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//Roboto Thin
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Thin.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Thin.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Thin.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Thin.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Thin.svg#Roboto-Thin) format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+//Roboto Thin (italic)
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-ThinItalic.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-ThinItalic.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-ThinItalic.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-ThinItalic.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-ThinItalic.svg#Roboto-ThinItalic) format("svg");
+  font-weight: 100;
+  font-style: italic;
+}
+
+//Roboto Light
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Light.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Light.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Light.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Light.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Light.svg#Roboto-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+//Roboto Light (italic)
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-LightItalic.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-LightItalic.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-LightItalic.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-LightItalic.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-LightItalic.svg#Roboto-LightItalic) format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+//Roboto Regular
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Regular.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Regular.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+//Roboto Regular (Italic)
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Italic.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Italic.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Italic.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Italic.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Italic.svg#Roboto-Italic) format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+//Roboto Medium
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Medium.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Medium.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Medium.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Medium.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Medium.svg#Roboto-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+//Roboto Medium (italic)
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-MediumItalic.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-MediumItalic.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-MediumItalic.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-MediumItalic.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-MediumItalic.svg#Roboto-MediumItalic) format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+//Roboto Bold
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Bold.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Bold.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Bold.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Bold.svg#Roboto-Bold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+//Roboto Bold (italic)
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-BoldItalic.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-BoldItalic.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-BoldItalic.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-BoldItalic.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-BoldItalic.svg#Roboto-BoldItalic) format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+
+//Roboto Black
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Black.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-Black.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-Black.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-Black.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-Black.svg#Roboto-Black) format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+//Roboto Black (italic)
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-BlackItalic.eot?#iefix) format("embedded-opentype"),
+	//url(../fonts/Roboto/Roboto-BlackItalic.otf) format("opentype"),
+  url(../fonts/Roboto/Roboto-BlackItalic.woff) format("woff"),
+  url(../fonts/Roboto/Roboto-BlackItalic.ttf) format("truetype"),
+  url(../fonts/Roboto/Roboto-BlackItalic.svg#Roboto-BlackItalic) format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Bold/noway-bold-webfont.eot');
+  src: url('../fonts/Noway-Bold/noway-bold-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Bold/noway-bold-webfont.woff') format('woff'),
+  url('../fonts/Noway-Bold/noway-bold-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Bold/noway-bold-webfont.svg#Noway-Bold') format('svg'),
+  url('../fonts/Noway-Bold/noway-bold-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Bold-italic/noway_bold_italic-webfont.eot');
+  src: url('../fonts/Noway-Bold-italic/noway_bold_italic-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Bold-italic/noway_bold_italic-webfont.woff') format('woff'),
+  url('../fonts/Noway-Bold-italic/noway_bold_italic-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Bold-italic/noway_bold_italic-webfont.svg#Noway-Bold') format('svg'),
+  url('../fonts/Noway-Bold-italic/noway_bold_italic-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Light/noway-light-webfont.eot');
+  src: url('../fonts/Noway-Light/noway-light-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Light/noway-light-webfont.woff') format('woff'),
+  url('../fonts/Noway-Light/noway-light-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Light/noway-light-webfont.svg#Noway-Light') format('svg'),
+  url('../fonts/Noway-Light/noway-light-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Light-italic/noway_Light_italic-webfont.eot');
+  src: url('../fonts/Noway-Light-italic/noway_Light_italic-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Light-italic/noway_Light_italic-webfont.woff') format('woff'),
+  url('../fonts/Noway-Light-italic/noway_Light_italic-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Light-italic/noway_Light_italic-webfont.svg#Noway-Bold') format('svg'),
+  url('../fonts/Noway-Light-italic/noway_Light_italic-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Medium/noway-medium-webfont.eot');
+  src: url('../fonts/Noway-Medium/noway-medium-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Medium/noway-medium-webfont.woff') format('woff'),
+  url('../fonts/Noway-Medium/noway-medium-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Medium/noway-medium-webfont.svg#Noway-Medium') format('svg'),
+  url('../fonts/Noway-Medium/noway-medium-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Medium-italic/noway_Medium_italic-webfont.eot');
+  src: url('../fonts/Noway-Medium-italic/noway_Medium_italic-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Medium-italic/noway_Medium_italic-webfont.woff') format('woff'),
+  url('../fonts/Noway-Medium-italic/noway_Medium_italic-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Medium-italic/noway_Medium_italic-webfont.svg#Noway-Bold') format('svg'),
+  url('../fonts/Noway-Medium-italic/noway_Medium_italic-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Noway';
+  src: url('../fonts/Noway-Regular/noway-regular-webfont.eot');
+  src: url('../fonts/Noway-Regular/noway-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Noway-Regular/noway-regular-webfont.woff') format('woff'),
+  url('../fonts/Noway-Regular/noway-regular-webfont.ttf') format('truetype'),
+  url('../fonts/Noway-Regular/noway-regular-webfont.svg#Noway-Regular') format('svg'),
+  url('../fonts/Noway-Regular/noway-regular-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

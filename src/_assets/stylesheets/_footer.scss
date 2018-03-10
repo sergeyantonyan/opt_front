@@ -1,0 +1,9 @@
+footer {
+  padding: 10px 0;
+  @include media-breakpoint-up(xs) {
+    padding: 20px 0;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 65px 0;
+  }
+}

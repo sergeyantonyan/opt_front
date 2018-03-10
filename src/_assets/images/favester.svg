@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="33px" viewBox="0 0 172 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>favester logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BETA-SIGNUP" transform="translate(-108.000000, -19.000000)">
+            <g id="favester-logo" transform="translate(108.000000, 14.000000)">
+                <text id="favester" font-family=".SFNSDisplay, .SF NS Display" font-size="38" font-weight="normal" fill="#000000">
+                    <tspan x="41" y="37">favester</tspan>
+                </text>
+                <polygon id="ICON" fill="#E00101" fill-rule="evenodd" points="17.4944316 5 12.0866858 15.8444286 0 17.5824286 8.74244284 26.0257143 12.1025956 24.9194286 7.99468158 20.9547143 6.74735215 19.7572857 14.1708714 18.6871429 17.4944316 12.0211429 20.8227647 18.6871429 28.2478749 19.7572857 22.8719487 24.943 24.1479158 32.269 17.4944316 28.8102857 7.34715214 34.1264286 6.68053093 37.9528571 17.4944316 32.324 28.32106 37.9528571 26.2480113 26.0288571 35 17.5824286 22.9021774 15.8444286"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

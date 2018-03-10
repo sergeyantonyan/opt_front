@@ -1,0 +1,40 @@
+.fv-beta--test {
+  position: relative;
+  z-index: 30;
+  background-color: #2C3E50;
+  color: #DEDEDE;
+  padding: 50px 0;
+  label {
+	margin-bottom: 15px;
+  }
+  .page-section--heading {
+	font-weight: 400;
+	font-family: "Merriweather-Bold", "Norway", sans-serif;
+	font-size: 26px;
+	@include media-breakpoint-up(md) {
+	  font-size: 36px;
+	}
+	
+	@include media-breakpoint-up(lg) {
+	  font-size: 40px;
+	}
+  }
+  .btn {
+	line-height: 1;
+	i {
+	  font-size: 12px;
+	  margin-left: 10px;
+	}
+  }
+}
+
+.fv-beta--header {
+  p {
+	font-family: "Merriweather", "Norway", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	@include media-breakpoint-up(lg) {
+	  font-size: 22px;
+	}
+  }
+}
